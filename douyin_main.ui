@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>955</width>
+    <height>698</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>抖音短视频</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,6">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>200</width>
+        <height>400</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>华文行楷</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>4</number>
+      </property>
+      <property name="midLineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QLineEdit" name="E_shuru">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>381</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>451</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>输入分享的主页或者视频链接</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="QB_APP">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>40</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>APP</string>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="QB_logo">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>40</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>无水印</string>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="PB_kaishi">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>20</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开始</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="save_pb">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>10</y>
+         <width>141</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>华文行楷</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>设置下载路径</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>视频作者</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>下载地址</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>视频名称</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>PB_kaishi</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>smain()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>725</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>850</x>
+     <y>91</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tableWidget</sender>
+   <signal>cellClicked(int,int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>smain()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>717</x>
+     <y>657</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>740</x>
+     <y>666</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>smain()</slot>
+  <slot>cellClicked_TBW()</slot>
+ </slots>
+</ui>

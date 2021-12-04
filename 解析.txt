@@ -1,0 +1,41 @@
+手机：
+主页：http://v.douyin.com/RPFkNRY/
+
+单视频：http://v.douyin.com/RPFu7Tk/
+
+电脑：
+https://v.douyin.com/RpMQ9uL/ 
+
+
+
+
+
+
+https://v.douyin.com/RbwDoNB/
+
+https://www.douyin.com/user/MS4wLjABAAAADB4QX5fR_6i3c1DEz8Jnzbt473FH33RIGvw555pPNT8?previous_page=app_code_link
+
+
+URL：
+https://aweme.snssdk.com/aweme/v1/aweme/post/?publish_video_strategy_type=2&source=0&user_avatar_shrink=96_96&video_cover_shrink=248_330&max_cursor=0&sec_user_id=MS4wLjABAAAADB4QX5fR_6i3c1DEz8Jnzbt473FH33RIGvw555pPNT8&count=20&show_live_replay_strategy=1&is_order_flow=0&page_from=2&location_permission=1&os_api=22&device_type=OPPO+R11+Plus&ssmix=a&manifest_version_code=170001&dpi=320&is_guest_mode=0&uuid=351564294346317&app_name=aweme&version_name=17.0.0&ts=1637932061&cpu_support64=false&app_type=normal&appTheme=light&ac=wifi&host_abi=armeabi-v7a&update_version_code=17009900&channel=tengxun_1128_0722&_rticket=1637932061803&device_platform=android&iid=1592548315891661&version_code=170000&cdid=0db026d7-bb4b-4011-93a3-050156847b8d&os=android&is_android_pad=0&openudid=5f61c42cf0cdc898&device_id=453353939470&resolution=900*1600&os_version=5.1.1&language=zh&device_brand=OPPO&aid=1128&minor_status=0&mcc_mnc=46007
+
+
+headers：
+Accept-Encoding: gzip
+x-tt-dt: AAA67BBXK3G6YJ4JSWLZSY4X3TLPQRSTWSXGD3OCPT732RA5USFFLHZWI67C3CG35TFTPXUL2R5FZAOO7O3GAXXTXYTOTIGGXVT7KER2O742UE4H6IV2LVQWARO5NSWUTL3WVYK4FUIRK3BPRRAHCVI
+activity_now_client: 1637932062402
+passport-sdk-version: 20353
+sdk-version: 2
+X-SS-REQ-TICKET: 1637932061806
+x-vc-bdturing-sdk-version: 2.2.0.cn
+Cookie: install_id=1592548315891661; ttreq=1$153007bee5f8689e7beefc9505af60d1f2b4cb31; odin_tt=836ded8fb73b5a5057fe636375f9e654c9c4f8fc82b6d18ee108343e9e891c1a76126ec2bee60649fd25ffa0274f60f626622f80322460d7944a7f334f40f7ff398a0712396a776311ef1cd0b6fc499c
+X-Ladon: PE/FM5whMERmtIdNDbKyYrMETuTl0cUNDf24MAUR0eQVfIOr
+X-Khronos: 1637932061
+X-Gorgon: 040400240000f32ad8b91ccb3463b43494c45b45e536308f9179
+X-Argus: +FT5llXVSaCkCWpbSkokeJ77sKJDGjWb8jH6nvzUot7LDDbLJWWTvZHju4fAqI2iaO/yKmfwXGgnJIQIU4yzkbSPsqOwdMXPkq67KJoLuWAcI4ZcU158OuHSG8aBkrk5uJ9wmhNpSX5wl9sUO5/+TC2kwn10F4LohAO/vCCrzApbTkrkEmSBMLloTtugU6lXOpBOwyGri8Q0o1ZGmgtd2r26qo0i24cPW+1WnbyvyMDB7kgn5oNx+4jsj1EzUr+ONjVcwFJeDnuFpiSEfqk5+2v6
+Host: aweme.snssdk.com
+Connection: Keep-Alive
+User-Agent: okhttp/3.10.0.1
+
+
+https://www.iesdouyin.com/share/video/6952523692114988302/?region=CN&mid=6952524764024015653&u_code=dm0611jb7c09ke&did=MS4wLjABAAAAwrejLhSpTouliCEQeTmw2DaISIcv-xYBl9xZN9kDFKCS9iJzbkfN9OTM-nW26Wf5&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&titleType=title&from=web_code_link
